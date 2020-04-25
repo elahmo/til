@@ -22,4 +22,5 @@ A collection of software engineering tips that I learn every day.
 ### terminal
 
 - [Command Timestamps](terminal/command-timestamps.md)
+- [Alt Click](terminal/alt-click.md)
 
