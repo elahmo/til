@@ -1,0 +1,30 @@
+name: Generate README
+
+on:
+  push:
+    branches: [ master ]
+    paths-ignore: [ README.md ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Autoformat README
+      uses: cflynn07/github-action-til-autoformat-readme@1.1.0
+      with:
+        description: |
+          This is a small collection of small notes I have found intresting or learned
+          during my daily activties at work or elewhere. This is a plan of a goal I to
+          work more in public, write more and learn something new everyday.
+
+          This page is automatically generated using this [workflow][1], and the whole
+          idea was inspired by numerous people doing similar writeups
+        footer: |
+          [1]: https://github.com/cflynn07/github-action-til-autoformat-readme
+        list_most_recent: 5
+        date_format: "2020 Jan 15:04"
