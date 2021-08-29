@@ -9,17 +9,22 @@ This page is automatically generated using this [workflow][1], and the whole
 idea was inspired by numerous people doing similar writeups
 
 
-_1 TILs and counting..._
+_2 TILs and counting..._
 
 ---
 
-### 1 most recent TILs
+### 2 most recent TILs
 
+- [Postgres](databases/postgres.md) - Sun Aug 29 16:40:36 2021 +0200
 - [Alt-click in the terminal](terminal/alt-click.md) - Sun Aug 29 16:35:04 2021 +0200
 
 ### Categories
 
+- [databases](#databases)
 - [terminal](#terminal)
+
+### [databases](#databases)
+- [Postgres](databases/postgres.md)
 
 ### [terminal](#terminal)
 - [Alt-click in the terminal](terminal/alt-click.md)
